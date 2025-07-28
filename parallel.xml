@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="2" parallel="tests" name="Test1">
+  <parameter name="BROWSER" value="Chrome"></parameter>
+    <classes>
+      <class name="Testcases.CreateCampaignTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="Test2">
+  <parameter name="BROWSER" value="Chrome"></parameter>
+    <classes>
+      <class name="Testcases.CreateProdcutsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+<!-- For paralel execution, we have to give thread count-->
+<!-- if thread count =2 we can run two tests-->
+<!-- include parallel="tests" in the thread count-->

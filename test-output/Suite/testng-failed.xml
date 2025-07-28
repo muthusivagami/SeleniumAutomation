@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <parameter name="BROWSER" value="Chrome"/>
+    <classes>
+      <class name="Testcases.CreateProdcuts">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="aftermethod"/>
+          <include name="beforesuite"/>
+          <include name="afterClass"/>
+          <include name="beforeclass"/>
+          <include name="beforetest"/>
+          <include name="CreateProducts"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Testcases.CreateProdcuts -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

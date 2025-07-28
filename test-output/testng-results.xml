@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[report configuration]]>
+    </line>
+    <line>
+      <![CDATA[db connectivity open]]>
+    </line>
+    <line>
+      <![CDATA[===CreateDateFAILURE===]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-26T08:29:32 IST" name="Default suite" finished-at="2025-07-26T08:29:43 IST" duration-ms="11018">
+    <groups>
+      <group name="Smoke">
+        <method signature="CreateDateTest.CreateDate()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" name="CreateDate" class="Testcases.CreateDateTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-07-26T08:29:32 IST" name="Default test" finished-at="2025-07-26T08:29:43 IST" duration-ms="11018">
+      <class name="Testcases.CreateDateTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:32 IST" name="beforesuite" finished-at="2025-07-26T08:29:32 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[db connectivity open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:32 IST" name="beforetest" finished-at="2025-07-26T08:29:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:32 IST" name="beforeclass" finished-at="2025-07-26T08:29:34 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:34 IST" name="beforemethod" finished-at="2025-07-26T08:29:34 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="CreateDate()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:34 IST" name="CreateDate" finished-at="2025-07-26T08:29:42 IST" duration-ms="7633" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=138.0.3351.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c5b58501b4ab77b04e0d0223bd7c39af, isElementDisplayed {id=f.9CED86AFFC91F6A28516468D88D27A93.d.2C4212C16EAF6C59400315BC36E89A0D.e.797}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50832}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\MUTHUS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50832/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c5b58501b4ab77b04e0d0223bd7c39af)] -> xpath: //div[@role='alert']]
+Session ID: c5b58501b4ab77b04e0d0223bd7c39af]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=138.0.3351.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c5b58501b4ab77b04e0d0223bd7c39af, isElementDisplayed {id=f.9CED86AFFC91F6A28516468D88D27A93.d.2C4212C16EAF6C59400315BC36E89A0D.e.797}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.95, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50832}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\MUTHUS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50832/devtoo..., se:cdpVersion: 138.0.3351.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c5b58501b4ab77b04e0d0223bd7c39af)] -> xpath: //div[@role='alert']]
+Session ID: c5b58501b4ab77b04e0d0223bd7c39af
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at WebDriverUtility.WebdriverUtility.WaitforVisibilityofElement(WebdriverUtility.java:24)
+at Testcases.CreateDateTest.CreateDate(CreateDateTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[===CreateDateFAILURE===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateDate -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:42 IST" name="aftermethod" finished-at="2025-07-26T08:29:43 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:43 IST" name="afterClass" finished-at="2025-07-26T08:29:43 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:43 IST" name="aftertest" finished-at="2025-07-26T08:29:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Testcases.CreateDateTest@2002fc1d]" started-at="2025-07-26T08:29:43 IST" name="afterSuite" finished-at="2025-07-26T08:29:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Testcases.CreateDateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
